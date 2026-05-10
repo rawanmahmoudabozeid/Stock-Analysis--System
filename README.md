@@ -1,6 +1,7 @@
 📈 Stock Market Analysis System
 An interactive Streamlit web app for real-time stock data visualization and analysis.
 
+
 Features
 🔍 Real-time stock lookup via yfinance
 📊 Candlestick and Line charts (7-day & 1-month windows)
@@ -8,14 +9,21 @@ Features
 📋 Full OHLCV data table
 🗄️ MySQL search history logging
 🌙 Premium dark-mode UI
+
+
 Setup
+
 1. Install dependencies
-pip install -r requirements.txt
-2. Configure MySQL (optional)
-Import schema.sql into your MySQL server:
+2. pip install -r requirements.txt
+3. Configure MySQL (optional)
+
+4. Import schema.sql into your MySQL server:
 mysql -u root -p < schema.sql
 Update DB_CONFIG at the top of app.py with your credentials.
-3. Run the app
+
+
+
+6. Run the app
 streamlit run app.py
 Project Structure
 stock_market_app/
